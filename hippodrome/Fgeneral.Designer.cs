@@ -222,7 +222,7 @@
             this.tpAbergel.Location = new System.Drawing.Point(4, 28);
             this.tpAbergel.Name = "tpAbergel";
             this.tpAbergel.Size = new System.Drawing.Size(1043, 472);
-            this.tpAbergel.TabIndex = 2;
+            this.tpAbergel.TabIndex = 3;
             this.tpAbergel.Text = "Abergel";
             this.tpAbergel.UseVisualStyleBackColor = true;
             // 

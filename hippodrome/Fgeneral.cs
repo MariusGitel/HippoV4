@@ -67,6 +67,11 @@ namespace hippodrome
         private void btAjoutCourse_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void bt_jeremy_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hey appuis moins fort :'(");
         }              
      }       
     }

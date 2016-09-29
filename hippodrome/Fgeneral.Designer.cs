@@ -44,10 +44,13 @@
             this.dgCourses = new System.Windows.Forms.DataGridView();
             this.tabgeneral = new System.Windows.Forms.TabControl();
             this.tabCheval = new System.Windows.Forms.TabPage();
+            this.tab_Jeremy = new System.Windows.Forms.TabPage();
+            this.bt_jeremy = new System.Windows.Forms.Button();
             this.tabCourse.SuspendLayout();
             this.gbDetailCourse.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgCourses)).BeginInit();
             this.tabgeneral.SuspendLayout();
+            this.tab_Jeremy.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabCourse
@@ -194,6 +197,7 @@
             // 
             this.tabgeneral.Controls.Add(this.tabCheval);
             this.tabgeneral.Controls.Add(this.tabCourse);
+            this.tabgeneral.Controls.Add(this.tab_Jeremy);
             this.tabgeneral.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabgeneral.Location = new System.Drawing.Point(4, 5);
             this.tabgeneral.Name = "tabgeneral";
@@ -212,6 +216,30 @@
             this.tabCheval.Text = "Les chevaux";
             this.tabCheval.UseVisualStyleBackColor = true;
             // 
+            // tab_Jeremy
+            // 
+            this.tab_Jeremy.Controls.Add(this.bt_jeremy);
+            this.tab_Jeremy.Location = new System.Drawing.Point(4, 28);
+            this.tab_Jeremy.Name = "tab_Jeremy";
+            this.tab_Jeremy.Padding = new System.Windows.Forms.Padding(3);
+            this.tab_Jeremy.Size = new System.Drawing.Size(1043, 472);
+            this.tab_Jeremy.TabIndex = 2;
+            this.tab_Jeremy.Text = "Leriche";
+            this.tab_Jeremy.UseVisualStyleBackColor = true;
+            // 
+            // bt_jeremy
+            // 
+            this.bt_jeremy.BackColor = System.Drawing.Color.SlateBlue;
+            this.bt_jeremy.Font = new System.Drawing.Font("Comic Sans MS", 50F);
+            this.bt_jeremy.ForeColor = System.Drawing.Color.Red;
+            this.bt_jeremy.Location = new System.Drawing.Point(61, 21);
+            this.bt_jeremy.Name = "bt_jeremy";
+            this.bt_jeremy.Size = new System.Drawing.Size(941, 431);
+            this.bt_jeremy.TabIndex = 0;
+            this.bt_jeremy.Text = "Button :D";
+            this.bt_jeremy.UseVisualStyleBackColor = false;
+            this.bt_jeremy.Click += new System.EventHandler(this.bt_jeremy_Click);
+            // 
             // Fgeneral
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -226,6 +254,7 @@
             this.gbDetailCourse.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgCourses)).EndInit();
             this.tabgeneral.ResumeLayout(false);
+            this.tab_Jeremy.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -248,6 +277,8 @@
         private System.Windows.Forms.DataGridView dgCourses;
         private System.Windows.Forms.TabControl tabgeneral;
         private System.Windows.Forms.TabPage tabCheval;
+        private System.Windows.Forms.TabPage tab_Jeremy;
+        private System.Windows.Forms.Button bt_jeremy;
 
     }
 }

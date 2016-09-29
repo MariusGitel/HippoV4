@@ -44,10 +44,13 @@
             this.dgCourses = new System.Windows.Forms.DataGridView();
             this.tabgeneral = new System.Windows.Forms.TabControl();
             this.tabCheval = new System.Windows.Forms.TabPage();
+            this.tabMarius = new System.Windows.Forms.TabPage();
+            this.buttonUn = new System.Windows.Forms.Button();
             this.tabCourse.SuspendLayout();
             this.gbDetailCourse.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgCourses)).BeginInit();
             this.tabgeneral.SuspendLayout();
+            this.tabCheval.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabCourse
@@ -194,6 +197,7 @@
             // 
             this.tabgeneral.Controls.Add(this.tabCheval);
             this.tabgeneral.Controls.Add(this.tabCourse);
+            this.tabgeneral.Controls.Add(this.tabMarius);
             this.tabgeneral.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabgeneral.Location = new System.Drawing.Point(4, 5);
             this.tabgeneral.Name = "tabgeneral";
@@ -203,6 +207,7 @@
             // 
             // tabCheval
             // 
+            this.tabCheval.Controls.Add(this.buttonUn);
             this.tabCheval.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabCheval.Location = new System.Drawing.Point(4, 28);
             this.tabCheval.Name = "tabCheval";
@@ -211,6 +216,25 @@
             this.tabCheval.TabIndex = 0;
             this.tabCheval.Text = "Les chevaux";
             this.tabCheval.UseVisualStyleBackColor = true;
+            // 
+            // tabMarius
+            // 
+            this.tabMarius.Location = new System.Drawing.Point(4, 28);
+            this.tabMarius.Name = "tabMarius";
+            this.tabMarius.Size = new System.Drawing.Size(1043, 472);
+            this.tabMarius.TabIndex = 2;
+            this.tabMarius.Text = "Les Marius";
+            this.tabMarius.UseVisualStyleBackColor = true;
+            // 
+            // buttonUn
+            // 
+            this.buttonUn.Location = new System.Drawing.Point(1039, 0);
+            this.buttonUn.Name = "buttonUn";
+            this.buttonUn.Size = new System.Drawing.Size(8, 8);
+            this.buttonUn.TabIndex = 0;
+            this.buttonUn.Text = "coucou !";
+            this.buttonUn.UseVisualStyleBackColor = true;
+            this.buttonUn.Click += new System.EventHandler(this.buttonUn_Click);
             // 
             // Fgeneral
             // 
@@ -226,6 +250,7 @@
             this.gbDetailCourse.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgCourses)).EndInit();
             this.tabgeneral.ResumeLayout(false);
+            this.tabCheval.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -248,6 +273,8 @@
         private System.Windows.Forms.DataGridView dgCourses;
         private System.Windows.Forms.TabControl tabgeneral;
         private System.Windows.Forms.TabPage tabCheval;
+        private System.Windows.Forms.Button buttonUn;
+        private System.Windows.Forms.TabPage tabMarius;
 
     }
 }

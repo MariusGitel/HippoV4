@@ -44,10 +44,13 @@
             this.dgCourses = new System.Windows.Forms.DataGridView();
             this.tabgeneral = new System.Windows.Forms.TabControl();
             this.tabCheval = new System.Windows.Forms.TabPage();
+            this.tab_tom = new System.Windows.Forms.TabPage();
+            this.btn_tom = new System.Windows.Forms.Button();
             this.tabCourse.SuspendLayout();
             this.gbDetailCourse.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgCourses)).BeginInit();
             this.tabgeneral.SuspendLayout();
+            this.tab_tom.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabCourse
@@ -194,6 +197,7 @@
             // 
             this.tabgeneral.Controls.Add(this.tabCheval);
             this.tabgeneral.Controls.Add(this.tabCourse);
+            this.tabgeneral.Controls.Add(this.tab_tom);
             this.tabgeneral.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabgeneral.Location = new System.Drawing.Point(4, 5);
             this.tabgeneral.Name = "tabgeneral";
@@ -212,6 +216,30 @@
             this.tabCheval.Text = "Les chevaux";
             this.tabCheval.UseVisualStyleBackColor = true;
             // 
+            // tab_tom
+            // 
+            this.tab_tom.Controls.Add(this.btn_tom);
+            this.tab_tom.Location = new System.Drawing.Point(4, 28);
+            this.tab_tom.Name = "tab_tom";
+            this.tab_tom.Padding = new System.Windows.Forms.Padding(3);
+            this.tab_tom.Size = new System.Drawing.Size(1043, 472);
+            this.tab_tom.TabIndex = 2;
+            this.tab_tom.Text = ".:T0|\\/| U1t1m4t3:.";
+            this.tab_tom.UseVisualStyleBackColor = true;
+            // 
+            // btn_tom
+            // 
+            this.btn_tom.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btn_tom.FlatAppearance.BorderSize = 0;
+            this.btn_tom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_tom.ForeColor = System.Drawing.Color.Red;
+            this.btn_tom.Location = new System.Drawing.Point(32, 159);
+            this.btn_tom.Name = "btn_tom";
+            this.btn_tom.Size = new System.Drawing.Size(346, 234);
+            this.btn_tom.TabIndex = 2;
+            this.btn_tom.Text = "code de votre prénom";
+            this.btn_tom.UseVisualStyleBackColor = false;
+            // 
             // Fgeneral
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -226,6 +254,7 @@
             this.gbDetailCourse.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgCourses)).EndInit();
             this.tabgeneral.ResumeLayout(false);
+            this.tab_tom.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -248,6 +277,8 @@
         private System.Windows.Forms.DataGridView dgCourses;
         private System.Windows.Forms.TabControl tabgeneral;
         private System.Windows.Forms.TabPage tabCheval;
+        private System.Windows.Forms.TabPage tab_tom;
+        private System.Windows.Forms.Button btn_tom;
 
     }
 }

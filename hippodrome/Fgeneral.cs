@@ -67,6 +67,11 @@ namespace hippodrome
         private void btAjoutCourse_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void BTABERGEL_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("C'est julien hahahahaha");
         }              
      }       
     }

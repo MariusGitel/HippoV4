@@ -44,10 +44,13 @@
             this.dgCourses = new System.Windows.Forms.DataGridView();
             this.tabgeneral = new System.Windows.Forms.TabControl();
             this.tabCheval = new System.Windows.Forms.TabPage();
+            this.tpAbergel = new System.Windows.Forms.TabPage();
+            this.BTABERGEL = new System.Windows.Forms.Button();
             this.tabCourse.SuspendLayout();
             this.gbDetailCourse.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgCourses)).BeginInit();
             this.tabgeneral.SuspendLayout();
+            this.tpAbergel.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabCourse
@@ -194,6 +197,7 @@
             // 
             this.tabgeneral.Controls.Add(this.tabCheval);
             this.tabgeneral.Controls.Add(this.tabCourse);
+            this.tabgeneral.Controls.Add(this.tpAbergel);
             this.tabgeneral.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabgeneral.Location = new System.Drawing.Point(4, 5);
             this.tabgeneral.Name = "tabgeneral";
@@ -212,6 +216,29 @@
             this.tabCheval.Text = "Les chevaux";
             this.tabCheval.UseVisualStyleBackColor = true;
             // 
+            // tpAbergel
+            // 
+            this.tpAbergel.Controls.Add(this.BTABERGEL);
+            this.tpAbergel.Location = new System.Drawing.Point(4, 28);
+            this.tpAbergel.Name = "tpAbergel";
+            this.tpAbergel.Size = new System.Drawing.Size(1043, 472);
+            this.tpAbergel.TabIndex = 2;
+            this.tpAbergel.Text = "Abergel";
+            this.tpAbergel.UseVisualStyleBackColor = true;
+            // 
+            // BTABERGEL
+            // 
+            this.BTABERGEL.BackColor = System.Drawing.Color.Turquoise;
+            this.BTABERGEL.Font = new System.Drawing.Font("Castellar", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTABERGEL.ForeColor = System.Drawing.Color.Red;
+            this.BTABERGEL.Location = new System.Drawing.Point(49, 175);
+            this.BTABERGEL.Name = "BTABERGEL";
+            this.BTABERGEL.Size = new System.Drawing.Size(872, 46);
+            this.BTABERGEL.TabIndex = 0;
+            this.BTABERGEL.Text = "BtAbergel";
+            this.BTABERGEL.UseVisualStyleBackColor = false;
+            this.BTABERGEL.Click += new System.EventHandler(this.BTABERGEL_Click);
+            // 
             // Fgeneral
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -226,6 +253,7 @@
             this.gbDetailCourse.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgCourses)).EndInit();
             this.tabgeneral.ResumeLayout(false);
+            this.tpAbergel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -248,6 +276,8 @@
         private System.Windows.Forms.DataGridView dgCourses;
         private System.Windows.Forms.TabControl tabgeneral;
         private System.Windows.Forms.TabPage tabCheval;
+        private System.Windows.Forms.TabPage tpAbergel;
+        private System.Windows.Forms.Button BTABERGEL;
 
     }
 }
